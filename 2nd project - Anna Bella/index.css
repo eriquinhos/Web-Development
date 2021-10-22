@@ -1,0 +1,41 @@
+body {
+	background-image: url("Imagens/fundo.png");
+	font-family: "Arial", Arial, sans-serif; 
+}
+h1{
+	color: #585142;
+	font-size: 1.5em;
+}
+div {
+	width: 900px;
+}
+.navbar {
+	width: 890px;
+	padding: 10px;
+	background-color: #D2D2C1;
+
+}
+a { 
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #261863;
+	font-size: 15px;
+	font-weight: 800;
+	text-decoration: none;
+	text-align: center;
+}
+.about {
+	background-color: #F3F3DC;
+	padding: 5px;
+
+}
+#rights {
+	font-weight: 900;
+	text-align: center;
+}
+
+.imagens {
+	border-width: 5px;
+	border-color: #E5E5C4;
+	border-style: inset;
+}
