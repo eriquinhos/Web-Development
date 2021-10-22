@@ -1,0 +1,126 @@
+/* Formatação Geral */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Plano de Fundo */
+body {
+	background-color: #EBEBEB;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/* Menu superior */
+#top {
+	background-color: #BA1A17;
+	text-align: center;
+	padding: 10px;
+}
+#tec {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 600;
+	color: #474747;
+	margin:0;
+	text-decoration: none;
+	padding: 10px 0px 10px 0px;
+}
+#blog {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 600;
+	color:#FFFFFF;
+	margin: 0;
+	text-decoration: none;
+	padding: 10px 0px 10px 0px;
+}
+#navbar {
+	text-align: center;
+	padding: 10px;
+
+}
+#navbar a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+#navbar a:link, #navbar a:visited {
+	color: #FFFFFF
+}
+#navbar a:hover{
+	color: #BA1A17; 
+	background-color: #FFFFFF;
+} 
+
+/* Area de postagem */
+#principal {
+	width: 1000px;
+	margin: auto;
+}
+#postarea {
+	width: 660px;
+	float: left;
+	margin: 10px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	border: 1px solid #681616;
+}
+#side {
+	width:260px;
+	float: right;
+	margin: 10px; 
+}
+#rodape {
+	clear: both;
+	text-align: center;
+	font-weight: 600;
+}
+#principal a {
+	text-decoration: none;
+	font-size: 1.2em;
+}
+#principal a:link, #principal a:visited {
+	color: #BA1A17;
+}
+#principal a:hover {
+	color: red;
+}
+/* Formatalção no Postarea */
+.post{
+	margin: 5px;
+}
+h1 {
+	color: #BA1A17; 
+} 
+.posted {
+	font-weight: 500;
+	border-bottom: 1px solid;
+	border-color: #681616;
+	padding-left: 2px;
+}
+.mainImage {
+	padding: 5px;
+}
+.conteudo {
+	text-align: justify;
+}
+/* Formatação caixinhas*/
+
+.submain {
+	background-color: #E5E5E5;
+	padding: 0px 5px;
+	color: #D87D36;
+}
+#recent, #sidemenu {
+	border: 1px solid #681616;
+	padding: 5px;
+	margin: 5px;
+	background-color: #FFFFFF;
+}
+li {
+	list-style-type: none;
+  	overflow: hidden;
+  	padding: 5px;
+}
+li a {
+	font-weight: 700;
+}
